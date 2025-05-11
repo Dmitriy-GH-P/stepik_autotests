@@ -1,2 +1,2 @@
 # stepik_autotests
-Homework 
+Домашка по тестированию со степика
