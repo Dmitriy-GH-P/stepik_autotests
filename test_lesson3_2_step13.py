@@ -5,8 +5,7 @@ import unittest
 result = "Congratulations! You have successfully registered!"
 
 class TestSubscribe(unittest.TestCase):
-
-    def check_page(self, link):
+     def check_page(self, link):
         self.browser = webdriver.Chrome()
         browser = self.browser
         browser.get(link)
