@@ -15,7 +15,7 @@ try:
     second_input.send_keys('Demidov')
 
     third_input = browser.find_element(By.CSS_SELECTOR, '.first_block .form-control.third')
-    third_input.send_keys('St-Petersburg')
+    third_input.send_keys('Demidov@mail.ru')
 
     time.sleep(2)
     button = browser.find_element(By.CSS_SELECTOR, 'button.btn')
