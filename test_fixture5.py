@@ -15,7 +15,7 @@ def browser():
 
 
 class TestMainPage1():
-
+# Маркировки тестов
     @pytest.mark.smoke
     def test_guest_should_see_login_link(self, browser):
         browser.get(link)
